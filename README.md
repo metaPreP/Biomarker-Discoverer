@@ -1,5 +1,7 @@
 # Biomarker-Discoverer
 
+[![DOI](https://zenodo.org/badge/827025542.svg)](https://doi.org/10.5281/zenodo.19956527)
+
 A Python pipeline for processing raw mass spectrometry peaklist data. Built to handle the messy output from tools like Compound Discoverer and turn it into a clean, aligned feature table ready for statistical analysis.
 
 Originally developed to solve a specific data-processing problem in Brynmar Degenhardt's study, *"Solid-Phase Enrichment of Glycation Products in Human Cells"* (CSC 2025), where it was used to clean, group, and align LC-MS peaklists across experimental conditions.
@@ -58,6 +60,12 @@ Email: nischal272@gmail.com
 GitHub: [@NischalBalami](https://github.com/NischalBalami)
 
 For questions, bug reports, or similar inquiries, feel free to reach out.
+
+## Acknowledgments
+
+This pipeline was developed under the supervision of **Dr. Makan Golizeh** (Concordia University of Edmonton), who initiated the project and supervised its development.
+
+Special thanks to **Brynmar Degenhardt**, whose research provided the use case that shaped the pipeline.
 
 ## License
 
