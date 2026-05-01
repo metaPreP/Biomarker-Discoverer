@@ -1,6 +1,8 @@
-# MetaPrep
+# Biomarker-Discoverer
 
 A Python pipeline for processing raw mass spectrometry peaklist data. Built to handle the messy output from tools like Compound Discoverer and turn it into a clean, aligned feature table ready for statistical analysis.
+
+Originally developed to solve a specific data-processing problem in Brynmar Degenhardt's study, *"Solid-Phase Enrichment of Glycation Products in Human Cells"* (CSC 2025), where it was used to clean, group, and align LC-MS peaklists across experimental conditions.
 
 ## What it does
 
@@ -16,23 +18,26 @@ The final output is a single spreadsheet where rows = unique molecules and colum
 ## How to use
 
 Install dependencies:
+
 ```
 pip install -r requirements.txt
 ```
 
 Put your raw `.xlsx` files in `data/raw/`, then:
+
 ```
 cd scripts
 python run_pipeline.py
 ```
 
 Or use the interactive menu for step-by-step control:
+
 ```
 cd scripts
 python main.py
 ```
 
-### Thresholds
+## Thresholds
 
 The grouping and alignment steps use two thresholds you can adjust:
 
@@ -45,3 +50,15 @@ The grouping and alignment steps use two thresholds you can adjust:
 - pandas
 - numpy
 - openpyxl
+
+## Author
+
+**Nischal Balami**
+Email: nischal272@gmail.com
+GitHub: [@NischalBalami](https://github.com/NischalBalami)
+
+For questions, bug reports, or similar inquiries, feel free to reach out.
+
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
